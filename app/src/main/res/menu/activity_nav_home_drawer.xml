@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_home"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_action_profile"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_myDonations"
+            android:icon="@drawable/ic_action_mydonations"
+            android:title="@string/nav_myDonations" />
+        <item
+            android:id="@+id/nav_donate"
+            android:icon="@drawable/ic_action_donate"
+            android:title="@string/headingDonate" />
+        <item
+            android:id="@+id/nav_aboutUs"
+            android:icon="@drawable/ic_action_aboutus"
+            android:title="@string/headAboutus" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_action_logout"
+            android:title="@string/heading_logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

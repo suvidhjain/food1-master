@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homefrag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffcc22"
+            android:fontFamily="@font/learning_curve_regular_ot_tt"
+            android:gravity="center"
+            android:text="You waste life \n when you waste \n good food."
+            android:textColor="#ffffff"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+
+            <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+               <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/a02" />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/a01" />
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/a03" />
+               </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_01"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="-55dp"
+            android:layout_marginEnd="60sp"
+            android:fontFamily="@font/learning_curve_regular_ot_tt"
+            android:text="Food"
+            android:textColor="#000000"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/home_02" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Is"
+            android:textSize="45sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/learning_curve_regular_ot_tt"
+            android:layout_marginTop="-55dp"
+            android:layout_marginStart="170dp"
+            android:layout_marginEnd="60sp"/>
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_03"
+            android:layout_marginTop="-20dp"
+            android:layout_marginStart="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precious"
+            android:textColor="#000000"
+            android:textSize="45sp"
+            android:layout_marginTop="-70dp"
+            android:layout_marginStart="125dp"
+            android:fontFamily="@font/learning_curve_regular_ot_tt"/>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

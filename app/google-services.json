@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "663169254589",
+    "firebase_url": "https://food-donation-ffd72.firebaseio.com",
+    "project_id": "food-donation-ffd72",
+    "storage_bucket": "food-donation-ffd72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663169254589:android:3ab590859d27038e",
+        "android_client_info": {
+          "package_name": "com.thetruders.food"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663169254589-ssri92pfd6pkii6o7hl34c08rn6585tq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thetruders.food",
+            "certificate_hash": "3275d8c2f7fb30c72df474cfcff5fa4f1c7dd02a"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6IUWeiSC7EKYiHmzxwfM3FV12yRBSA2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663169254589-tb3frb9uana5bao0qine7kgithd56v84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663169254589:android:83e4b33955e92421",
+        "android_client_info": {
+          "package_name": "com.thetruders.foodyneedy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6IUWeiSC7EKYiHmzxwfM3FV12yRBSA2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663169254589-tb3frb9uana5bao0qine7kgithd56v84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
